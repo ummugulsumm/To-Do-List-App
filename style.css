@@ -17,7 +17,7 @@
 .todo-app {
     font-family: 'montserrat', sans-serif;
     color: rgb(94, 47, 23);
-    font-weight: 600;
+    font-weight: 700;
     background-image: url("images/background.jpg");
     background-size: cover;
     background-position: center;
@@ -27,6 +27,7 @@
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
+    
 }
 
 .todo-app h2 {
@@ -62,7 +63,7 @@ input {
     outline: none;
     background: transparent;
     padding: 10px;
-    font-weight: 18px;
+    font-weight: 600;
     margin-top: 15px;
     font-size: 17px;
     color: rgb(0,0,0,0.9);
@@ -70,11 +71,14 @@ input {
 
 ::placeholder {
     color: rgb(0,0,0,0.8);
-    font-weight: 300;
+    font-weight: 600;
 }
 
 
-
+ul {
+    background-color: rgba(99, 52, 29, 0.2);
+    border-radius: 2%;
+}
 
 ul li {
     list-style: none;
@@ -83,6 +87,9 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+    color: rgb(0,0,0,0.8);;
+
+    
 }
 
 ul li::before {
